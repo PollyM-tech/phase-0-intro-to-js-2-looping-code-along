@@ -13,11 +13,11 @@
 
  //ASSIGNMENT2
  function countDown(countNumber){
-    let countDown = countNumber;
+    let currentCount = countNumber;
 
-    while (countDown >=0){
-       console.log(countDown);
-        countDown--;
+    while (currentCount >=0){
+       console.log(currentCount--);
+      
  }
 }
 countNumber(10)
